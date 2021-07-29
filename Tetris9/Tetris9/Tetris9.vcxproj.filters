@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Block.cpp">
+      <UniqueIdentifier>{1c12edf1-b953-4d2b-afe3-43651f0aba3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mode.cpp">
+      <UniqueIdentifier>{d2d88187-045a-4e26-bcaa-080502e66923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tetris.cpp">
+      <UniqueIdentifier>{5ea3c2c1-063c-4ebd-9e29-dbdfbd96863e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Block.h">
+      <UniqueIdentifier>{30fb3575-04df-4395-800b-658cbc93400f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Mode.h">
+      <UniqueIdentifier>{71b32e81-0590-4658-ab3b-22d88bef7a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tetris.h">
+      <UniqueIdentifier>{606a054d-980d-42d2-b629-de78d3d615ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Util">
+      <UniqueIdentifier>{32928d13-af1f-45ee-aca7-b60ae1d928d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h">
+      <Filter>헤더 파일\Block.h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerVsCom.h">
+      <Filter>헤더 파일\Mode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerVsPlayer.h">
+      <Filter>헤더 파일\Mode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerVsMany.h">
+      <Filter>헤더 파일\Mode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris.h">
+      <Filter>헤더 파일\Tetris.h</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisManager.h">
+      <Filter>헤더 파일\Tetris.h</Filter>
+    </ClInclude>
+    <ClInclude Include="g_Defines.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockList.h">
+      <Filter>헤더 파일\Block.h</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisHandler.h">
+      <Filter>헤더 파일\Tetris.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>헤더 파일\Mode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris9.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockLinked.h">
+      <Filter>헤더 파일\Block.h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tetris9.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\Block.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockList.cpp">
+      <Filter>소스 파일\Block.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>소스 파일\Mode.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerVsCom.cpp">
+      <Filter>소스 파일\Mode.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerVsMany.cpp">
+      <Filter>소스 파일\Mode.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerVsPlayer.cpp">
+      <Filter>소스 파일\Mode.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisHandler.cpp">
+      <Filter>소스 파일\Tetris.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>소스 파일\Tetris.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisManager.cpp">
+      <Filter>소스 파일\Tetris.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockLinked.cpp">
+      <Filter>소스 파일\Block.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tetris9.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Tetris9.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
